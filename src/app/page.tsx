@@ -8,6 +8,8 @@ import Skills from '../components/Articles/Skills';
 import { Footer } from '../components/Footer/Footer';
 import { Header } from '../components/Header/Header';
 import Projects from '../components/Articles/Projects';
+import CodeSnippets from '../components/Articles/CodeSnippets';
+import FAQS from '../components/Articles/FAQ';
 
 // @ts-expect-error Server Component
 const Page: React.FC<PageProps> = async () => {
@@ -37,6 +39,15 @@ const Page: React.FC<PageProps> = async () => {
 
         <div className="mt-12">
           <Projects projects={data.projects}/>
+        </div>
+
+        <div className="mt-12">
+          <CodeSnippets />
+        </div>
+
+
+        <div className="mt-12">
+          <FAQS />
         </div>
       </div>
 

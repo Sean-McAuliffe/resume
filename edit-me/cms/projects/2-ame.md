@@ -1,7 +1,7 @@
 ---
 language: Python, Rust, Typescript
 title: AME
-category: analytics
+category: Analytics
 status: Under Development
 ---
 

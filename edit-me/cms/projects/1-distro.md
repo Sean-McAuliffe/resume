@@ -1,7 +1,7 @@
 ---
 language: Python, Rust
 title: Distro
-category: analytics
+category: Analytics
 status: Under Development
 ---
 
