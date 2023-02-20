@@ -12,10 +12,10 @@ const FAQS: React.FC = ({ }) => {
                 <div className="flex justify-center text-center">
                     <SectionHeading icon={faMessage} level={2} text="FAQs" />
                 </div>
-                <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 w-full">
-                    <div className="py-5 cursor-pointer mt-6 overflow-x-scroll">
+                <div className="grid  text-center mt-8 w-full">
+                    <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex w-full items-center font-medium cursor-pointer list-none">
                                 <span>What's your preferred git workflow?</span>
 
                             </summary>
@@ -27,13 +27,13 @@ const FAQS: React.FC = ({ }) => {
                             </div>
                         </details>
                     </div>
-                    <div className="py-5 cursor-pointer mt-6 overflow-x-scroll">
+                    <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex items-center font-medium cursor-pointer list-none">
                                 <span>Can you give an example of a time you showed leadership & initiative ?</span>
 
                             </summary>
-                            <div className="text-neutral-600 mt-3 group-open:animate-fadeIn max-w-full">
+                            <div className="text-neutral-600 mt-3 group-open:animate-fadeIn max-w-full text-left">
 
                                 <p>
                                     Recently, at Conduent. My team was asked to help develop a machine-learning model to predict voluntary attrition. The BI team we partnered with had a knowledge-gap that had dragged the process out across three months. I ended up building the model by myself (on my own time as well), and using the opportunity to teach the BI team where they had gone wrong.
@@ -41,9 +41,9 @@ const FAQS: React.FC = ({ }) => {
                             </div>
                         </details>
                     </div>
-                    <div className="py-5 cursor-pointer mt-6 overflow-x-scroll">
+                    <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex items-center font-medium cursor-pointer list-none">
                                 <span>What have you done to develop or change in the last few years?</span>
 
                             </summary>
@@ -55,9 +55,9 @@ const FAQS: React.FC = ({ }) => {
                             </div>
                         </details>
                     </div>
-                    <div className="py-5 cursor-pointer mt-6 overflow-x-scroll">
+                    <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex items-center font-medium cursor-pointer list-none">
                                 <span>Can you describe your approach to coming up with technical solutions?</span>
 
                             </summary>

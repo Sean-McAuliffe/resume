@@ -12,10 +12,10 @@ const CodeSnippets: React.FC = ({ }) => {
                 <div className="flex justify-center text-center">
                     <SectionHeading icon={faCode} level={2} text="Code Snippets" />
                 </div>
-                <div className="grid divide-y divide-neutral-200 max-w-xl  mt-8 w-full">
-                    <div className="py-5 cursor-pointer mt-6 overflow-x-scroll">
+                <div className="grid  mt-8 w-full">
+                    <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex  items-center font-medium cursor-pointer list-none">
                                 <span>Can you show me an example of code relating to data analysis?</span>
 
                             </summary>
@@ -43,7 +43,7 @@ df['mentions_bill'] = df['text'].apply(lambda x: any(map(x.lower().__contains__,
                     </div>
                     <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex  items-center font-medium cursor-pointer list-none">
                                 <span>Can you show me an example of infrastructure as code?</span>
 
                             </summary>
@@ -99,7 +99,7 @@ export class InfrastructurePipeline extends Stack {
                     </div>
                     <div className="py-5 cursor-pointer mt-6">
                         <details className="group">
-                            <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                            <summary className="flex  items-center font-medium cursor-pointer list-none">
                                 <span>Can you show me a bubble sort example??</span>
 
                             </summary>
