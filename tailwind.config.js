@@ -3,6 +3,7 @@ const resumeConfig = require('./edit-me/config/resumeConfig');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   content: [
     './src/app/**/*.{js,ts,jsx,tsx}',
     './src/pages/**/*.{js,ts,jsx,tsx}',
