@@ -22,6 +22,7 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
           <strong>Location:</strong> {personalInformation.attributes.location}
         </li>
         <li>
+          {/* @ts-ignore */}
           <strong>Email:</strong> {personalInformation.attributes.email}
         </li>
 
