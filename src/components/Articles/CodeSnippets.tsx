@@ -12,7 +12,7 @@ const CodeSnippets: React.FC = ({ }) => {
                 <div className="flex justify-center text-center">
                     <SectionHeading icon={faCode} level={2} text="Code Snippets" />
                 </div>
-                <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 w-full">
+                <div className="grid divide-y divide-neutral-200 max-w-xl  mt-8 w-full">
                     <div className="py-5 cursor-pointer mt-6 overflow-x-scroll">
                         <details className="group">
                             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
