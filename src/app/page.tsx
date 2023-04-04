@@ -10,7 +10,7 @@ import { Header } from '../components/Header/Header';
 import Projects from '../components/Articles/Projects';
 import CodeSnippets from '../components/Articles/CodeSnippets';
 import FAQS from '../components/Articles/FAQ';
-
+import Awards from '../components/Articles/Awards';
 // @ts-expect-error Server Component
 const Page: React.FC<PageProps> = async () => {
   const data = await getCMSIntegration('markdown');
@@ -33,6 +33,9 @@ const Page: React.FC<PageProps> = async () => {
           <Professional professionalExperience={data.professional} />
         </div>
 
+        <div className="mt-12">
+          <Awards Awards={data.awards} />
+        </div>
         <div className="mt-12">
           <Achievements achievements={data.achievements} />
         </div>

@@ -1,4 +1,5 @@
 import { CMSAchievement, getAchievements } from './markdown/achievements';
+import { CMSAwards, getAwards } from './markdown/awards';
 import { CMSHobbies, getHobbies } from './markdown/hobbies';
 import { CMSLink, getLinks } from './markdown/links';
 import {
@@ -24,6 +25,7 @@ export interface CMSData {
   professional: CMSProfessionalExperience[];
   skills: CMSSkillCategory[];
   projects: CMSProjects[];
+  awards:CMSAwards[];
 }
 
 export const getCMSIntegration = async (cms: CMS): Promise<CMSData> => {
@@ -35,7 +37,8 @@ export const getCMSIntegration = async (cms: CMS): Promise<CMSData> => {
       personalInformation: await getPersonalInformation(),
       professional: await getProfessionalExperiences(),
       skills: await getSkillCategories(),
-      projects: await getProjects()
+      projects: await getProjects(),
+      awards: await getAwards()
     };
   }
   return null;

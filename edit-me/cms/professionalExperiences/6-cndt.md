@@ -4,10 +4,9 @@ startDate: June 2021
 title: Analytics Team
 ---
 
- • Leading efforts to move our reporting system to AWS, resulting in a workforce reduction, cost savings, and greater reporting efficiency/availability <br />
-• Led efforts to implement a data-mesh style architecture on AWS <br />
-• Managed integration between MSFT PowerBI, MSFT Active Directory, and AWS Lake Formation <br />
-• Developed an ML model to predict the likelihood of voluntary attrition on multiple accounts <br />
-• Introduced Python / Jupyter Notebooks to analytics team in an effort to upgrade from Excel <br />
+ • Leading efforts to move reporting system on to AWS in an effort increase efficiency, availability, and to reduce the workforce needed to support various accounts <br />
+• Designed and piloted a machine learning model to predict voluntary attrition for phone agents <br />
+• Introduced Python & JupyterLab to the analyst team, resulting in greater operational efficiency <br />
+• Recipient of multiple awards for innovation and teamwork <br />
+• Leading efforts to implement a data-mesh style architecture on AWS <br />
 • Client-facing on some of our largest accounts <br />
-• Assisted in multiple urgent ad-hoc requests to process data in order to settle outstanding invoices with clients <br />
